@@ -1,0 +1,141 @@
+body{
+    background-color: #f5e5d5;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/*  NAVBAR  */
+
+nav{
+    background-color: #f5e5d5;
+    
+    
+}  
+/* .LogoNav{
+    
+    font-family: 'Girassol', serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    
+    
+}  */
+.LogoNav {
+    font-family: 'Girassol', serif;
+    font-size: 60px; /* Utilizza viewport width per rendere il testo responsive */
+    font-weight: bold;
+    color: #f5e5d5;
+}
+.LogoNavCanvas {
+    font-family: 'Girassol', serif;
+    font-size: 25px; /* Utilizza viewport width per rendere il testo responsive */
+    font-weight: bold;
+    color: black;
+}
+
+/* rgb(107, 107, 243); */
+
+.navBorderColor{
+    /* background-color: black; */
+    color: #f5e5d5;
+    
+}
+
+@media (max-width: 1200px) {
+    .LogoNav {
+        font-size: 45px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .LogoNav {
+        font-size: 35px; 
+    }
+}
+
+@media (max-width: 468px) {
+    .LogoNav {
+        font-size: 24px; 
+    }
+}
+
+
+
+
+.colorCard{
+    background-color: #ead4be;
+} 
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Regole per l'hover */
+.card:hover {
+    transform: scale(1.1);
+}
+.ImgCardSize{
+    height: 100%;
+    width: 100%;
+}
+
+
+.fontWeightBold{
+    font-weight: bold;
+}
+
+.FormColor 
+{
+    background-color: #ead4be !important;
+}
+
+.FormInputColor
+{
+    background-color: #f5e5d5 !important;
+}   
+
+.btnAdmAgg{
+    background-color: #009e00   ;
+}
+.btnAdmAgg:hover{
+    border:2px solid #009e00 ;
+    color: black !important;
+    
+}
+
+.btnAdmCanc{
+    background-color: #A52A2A    ;
+}
+.btnAdmCanc:hover{
+    border:2px solid #A52A2A ;
+    color: black !important;
+    
+}
+
+.btnAdmAggCat{
+    
+    border:2px solid black ;
+    
+}
+.btnAdmAggCat:hover{
+    background-color:#9cdff5 ;
+     border:2px solid black ;
+    
+}
+
+.SwitchColorBack{
+    background-color: #212529 !important;
+    color : #e1c3a5;
+}  
+.SwitchColorBack:hover{
+    background-color: #f5e5d5 !important;
+    color :  #1d1a18;
+} 
+
+.SwitchColor{
+    background-color: #e1c3a5 !important;
+    color : #212529;
+}  
+.SwitchColor:hover{
+    background-color: #f5e5d5   !important;
+    color : #212529 ;
+} 
